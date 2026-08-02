@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamo - روابط التواصل</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 25px;
+            font-size: 24px;
+            color: #38bdf8;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            padding: 16px;
+            margin: 14px 0;
+            width: 100%;
+            text-decoration: none;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            font-size: 16px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            border-color: #38bdf8;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>طرق التواصل معي</h2>
+        
+        <!-- واتساب -->
+        <a class="btn" href="https://wa.me/201024551267" target="_blank">💬 مراسلة عبر الواتساب</a>
+        
+        <!-- اتصال هاتفي مباشر -->
+        <a class="btn" href="tel:+201024551267" target="_blank">📞 اتصال هاتفي مباشر</a>
+        
+        <!-- فيسبوك -->
+        <a class="btn" href="https://www.facebook.com/share/197mzL2a1o/" target="_blank">📘 صفحة الفيسبوك</a>
+        
+        <!-- تيك توك -->
+        <a class="btn" href="https://www.tiktok.com/@hamo.prinker" target="_blank">🎵 حساب التيك توك</a>
+        
+        <!-- يوتيوب -->
+        <a class="btn" href="https://youtube.com/channel/UCR39SvoBgIJQeyAH6I9xOmQ" target="_blank">📺 قناة اليوتيوب</a>
+        
+        <!-- انستجرام -->
+        <a class="btn" href="https://www.instagram.com/mohamed_a1_1med" target="_blank">📸 حساب الانستجرام</a>
+
+        <div class="footer">Mix Content</div>
+    </div>
+
+</body>
+</html>
